@@ -1,0 +1,12 @@
+使用阿里巴巴icon font 图标：  
+帮助--->代码应用--->使用方式Symbol
+一.线上使用
+1.百度找到阿里巴巴字体图标
+2.找到想要的图标后选择购物车形状（添加入库）
+3.点击顶部右上角的购物车形状，添加至项目（自己目前要使用图标的项目）
+4.选择Symbol--->点击 点此复制代码--->把这一行代码粘贴到整个文件中最外层的index.html中；例如： <script type="text/javascript" src="http://at.alicdn.com/t/font_670995_lg7rblfq2unjnhfr.js"></script>
+5.在要使用图标的位置：<svg class="icon" aria-hidden="true">
+    			<use xlink:href="#icon-xxx"></use>
+		     </svg>  把#icon-xxx替换就好
+可以根据class名设置样式了。
+  
